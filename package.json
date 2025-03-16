@@ -41,6 +41,12 @@
     "gh-pages": "^6.3.0"
   },
   "homepage": "https://mauroleguiza.github.io/Portafolio/",
-"deploy": "gh-pages -d build"
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
 
 }
